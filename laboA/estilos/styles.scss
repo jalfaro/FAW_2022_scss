@@ -1,0 +1,45 @@
+$margen-hor : 50px;
+$margen-ver : 20px;
+
+#encabezado {
+    background-color: black;
+    width: calc(100% - 2*$margen-hor);
+   // margin: $margin-hor;
+    //border: black dotted 3px;
+    margin: $margen-ver $margen-hor;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#agrupacion {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 2*$margen-hor);
+    margin: $margen-ver $margen-hor;
+    #menu_izq {
+        background-color: blue;
+        width: 20%;
+        margin: $margen-ver;
+    }
+    #contenido {
+        background-color: green;
+        width: 60%;//calc(60% - 2* $margen-hor);
+        margin: $margen-ver;
+    }
+    #menu_der {
+        background-color: pink;
+        width: 20%;//calc(20% - 2* $margen-hor);
+        margin: $margen-ver;
+    }
+}
+
+#pie_pagina {
+    background-color: black;
+    width: calc(100% - 2*$margen-hor);
+    margin: $margen-ver $margen-hor;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

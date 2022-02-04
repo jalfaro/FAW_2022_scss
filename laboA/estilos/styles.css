@@ -1,0 +1,49 @@
+#encabezado {
+  background-color: black;
+  width: calc(100% - 2*$margen-hor);
+  margin: 20px 50px;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#agrupacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: calc(100% - 2*$margen-hor);
+  margin: 20px 50px;
+}
+
+#agrupacion #menu_izq {
+  background-color: blue;
+  width: 20%;
+  margin: 20px;
+}
+
+#agrupacion #contenido {
+  background-color: green;
+  width: 60%;
+  margin: 20px;
+}
+
+#agrupacion #menu_der {
+  background-color: pink;
+  width: 20%;
+  margin: 20px;
+}
+
+#pie_pagina {
+  background-color: black;
+  width: calc(100% - 2*$margen-hor);
+  margin: 20px 50px;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

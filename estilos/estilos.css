@@ -1,0 +1,96 @@
+img {
+  width: 150px;
+  height: 200px;
+  margin: 30px;
+  padding: 40px;
+  border: red solid 2px;
+  background-color: black;
+}
+
+.resaltar {
+  color: darkblue;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: pink;
+  border-style: double;
+  border-width: 2px;
+}
+
+#titulo-top {
+  color: green;
+  font-size: 35px;
+  border: #69dd99 dotted 3px;
+}
+
+body {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#encabezado {
+  background-color: white;
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#pie_pagina {
+  background-color: white;
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#contenido #texto {
+  width: 150px;
+  background-color: white;
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#contenido #contenido-central {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 4*$margin - 4*$padding - 4* $border-width);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+#contenido #contenido-central #imagenes {
+  width: 100%;
+  background-color: white;
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#contenido #contenido-central #listado-top {
+  width: 100%;
+  background-color: white;
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */
