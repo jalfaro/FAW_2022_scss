@@ -1,0 +1,81 @@
+$margen-principal : 15px;
+$padding: 10px;
+.saludo {
+    color: red;
+    font-size: 30px;
+    text-decoration: dotted;
+}
+
+#elemento {
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+}
+#encabezado {
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: calc(100% - 2*$margen-principal);
+    margin: $margen-principal;
+    padding: $padding;
+    #titulo {
+        width: 30%;
+        font-size: 30px;
+        text-align: center;
+    }
+    #opciones {
+        width: 70%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+#principal {
+    display:flex;
+    flex-direction: row;
+    height: calc(100vh - 100px - 100px);
+    width: calc(100% - 2*$margen-principal);
+    margin: $margen-principal;
+    padding: $padding;
+    #menu {
+        width: 20%;
+        padding: $padding;
+        li {
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: underline;
+            margin: 10px;
+            border: white dotted 2px;
+        }
+    }
+    #contenido {
+        width: 60%;
+        padding: $padding;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        div {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(random(255), random(255), random(255));
+            margin: 10px;
+        }
+    }
+    #comentarios {
+        width: 20%;
+        padding: $padding;
+    }
+}
+
+#pie_pagina {
+    background-color: black;
+    color: white;
+    width: calc(100% - 2*$margen-principal);
+    margin: $margen-principal;
+    font-size: 20px;
+    text-align: center;
+    padding: $padding;
+}

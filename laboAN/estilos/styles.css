@@ -1,0 +1,113 @@
+.saludo {
+  color: red;
+  font-size: 30px;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
+#elemento {
+  color: green;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: black;
+  color: white;
+  width: calc(100% - 2*$margen-principal);
+  margin: 15px;
+  padding: 10px;
+}
+
+#encabezado #titulo {
+  width: 30%;
+  font-size: 30px;
+  text-align: center;
+}
+
+#encabezado #opciones {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: calc(100vh - 100px - 100px);
+  width: calc(100% - 2*$margen-principal);
+  margin: 15px;
+  padding: 10px;
+}
+
+#principal #menu {
+  width: 20%;
+  padding: 10px;
+}
+
+#principal #menu li {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 10px;
+  border: white dotted 2px;
+}
+
+#principal #contenido {
+  width: 60%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#principal #contenido div {
+  width: 80px;
+  height: 80px;
+  background-color: #13e436;
+  margin: 10px;
+}
+
+#principal #comentarios {
+  width: 20%;
+  padding: 10px;
+}
+
+#pie_pagina {
+  background-color: black;
+  color: white;
+  width: calc(100% - 2*$margen-principal);
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
